@@ -8,11 +8,13 @@ header {
 	background-repeat: no-repeat;
 	padding: 140px 0 100px;
 }
+
 @media (min-width: 576px) {
 	header {
 		padding: 200px 0;
 	}
 }
+
 p {
 	font-size: 40px;
 	color: black;
@@ -25,26 +27,31 @@ p {
 	border: 8px;
 	width: 562px;	
 }
+
 .first-section img {
 	margin-bottom: 35px;
 	border: 1px solid black;
 	border-radius: 15px;
 }
+
 @media (min-width:768px) {
 	.first-section img {
 		margin-bottom: 20px
 	}
 }
+
 @media (min-width:992px) {
 	.first-section img {
 		margin-bottom: 0;
 	}
 }
+
 @media (min-width: 576px) {
 	h1 {
 		font-size: 40px;
 	}
 }
+
 @media (min-width: 576px) {
 	.section {
 		padding: 100px 0;
@@ -55,38 +62,47 @@ p {
 	color: #9da2a6;
 	font-size: 25px;
 }
+
 .second-section img {
 	height: 200px;
 	margin: 100px 0 50px;
 	width: 200px;
 	border-radius: 15px;
 }
+
 .navbar-brand img {
 	height: 46px;
 	margin-right: 8px;
 	width: 46px;
 }
+
 third-section {
 	background-color: white;
 }
+
 .third-section img {
 	margin-top: 35px;
+	border-radius: 15px;
 }
+
 @media (min-width: 768px) {
 	.third-section img {
 		margin-top: 0;
 	}
 }
+
 .fourth-section {
 	background-color: #f0f8ff;
 	background-image: url("../img/dogs-pattern.png");
 	background-repeat: repeat;
 	background-size: 192px 192px;
 }
+
 footer {
 	background-color: white;
 	padding: 35px 0;
 }
+
 .footer-logo {
 	height: 22px;
 	margin-bottom: 3px;
