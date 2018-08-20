@@ -1,170 +1,196 @@
 <!DOCTYPE html>
 <html>
+
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 	<div class="container"> 
   		<a class="navbar-brand" href="#">
   			<img src="img/dog-icon.png" alt="dog logo">Dogs
   		</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		</button>
+
   		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Sobre<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Por que cachorros?</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Alimentação</a>
-      </li>
-	  <li class="nav-item">
-	  	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Cadastre-se</button>
-	  </li>		 
-    </ul>
-  		</div>
+		    <ul class="navbar-nav ml-auto">
+			    <li class="nav-item active">
+			    	<a class="nav-link" href="#">Sobre<span class="sr-only">(current)</span></a>
+			    </li>
+			    <li class="nav-item">
+				    <a class="nav-link" href="#first-section">Por que cachorros?</a>
+		      	</li>
+			    <li class="nav-item">
+			   		<a class="nav-link" href="#second-section">Alimentação</a>
+			    </li>
+			    <li class="nav-item">
+			   		<a class="nav-link" href="#third-section">Vantagens</a>
+			    </li>
+				<li class="nav-item">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Cadastre-se</button>
+				</li> 
+		   	</ul>
+		</div>
+
   	</div>
 </nav>
+
 <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sobre Você.</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Nome Completo:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-          	<label for="recipient-name" class="col-form-label">E-mail:</label>
-          	<input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Sobre você: \\Por que pretende adotar?</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
-      </div>
-    </div>
-  </div>
+	<div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	
+		    <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Sobre Você.</h5>
+			    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			    	<span aria-hidden="true">&times;</span>
+			    </button>
+		    </div>
+
+		    <div class="modal-body">
+		        <form>
+			        <div class="form-group">
+			        	<label for="recipient-name" class="col-form-label">Nome Completo:</label>
+			        	<input type="text" class="form-control" id="recipient-name">
+			        </div>
+			        <div class="form-group">
+			        	<label for="recipient-name" class="col-form-label">E-mail:</label>
+			        	<input type="text" class="form-control" id="recipient-name">
+			        </div>
+			        <div class="form-group">
+			        	<label for="recipient-name" class="col-form-label">Sobre você: \\Por que pretende adotar?</label>
+			        	<textarea class="form-control" id="message-text"></textarea>
+			        </div>
+		        </form>
+		    </div>
+
+		    <div class="modal-footer">
+		    	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		    	<button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
+		    </div>
+
+	    </div>
+	</div>
 </div>
 
 <head> 
 	<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-sale=1,shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-sale=1,shrink-to-fit=no">
 	<title>Cachorros - Os animais mais queridos do mundo</title>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-	<body>
-<header> 
-	<div class="container">
-		<div class="row">
-			<div class="col text-center">	
-				<h1>Cachorros tornam sua vida mais feliz</h1>
-				<p>A chave para uma vida feliz e ter um cachorro</p>
-				<a class="btn btn-primary btn-lg" href="https:/www.procure1amigo.com.br/" role="button">Adote</a>
+<body>
+	<header> 
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">	
+					<h1>Cachorros tornam sua vida mais feliz</h1>
+					<p>A chave para uma vida feliz e ter um cachorro</p>
+					<a class="btn btn-primary btn-lg" href="https:/www.procure1amigo.com.br/" role="button">Adote</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="section first-section" id="first-section">
+		<div class="container">
+			<div class="row justify-content-around align-items-center">
+				<p class="text-center">A chave para uma vida feliz?</p>
+
+				<div class="col-12 col-lg-7	">	
+					<img class="img-fluid" src="img/img_cachorros_golden_retriever.jpg" alt="Cute Dog">
+				</div>
+
+				<div class="col-12 col-lg-5">
+					<p>A fidelidade em forma de de quatro patas.</p>
+						<h4>Não e muito dificil comvence alguem de que os nossos conpanheiros de quatro patas são os animais mais incriveis do mundo.</h4>
+					<h4>Aqui estão algums motivos:</h4>
+					<ul>
+						<li>Vão estar ao seu lado Sempre que você precisar.</li>
+						<li>Sempre tentam fazer o maximo para agradar seu dono.</li>
+						<li>Ficam incrivelmete felizes e agitados quando você chega em casa.</li>
+						<li>Estão sempre demostrando carinho, de um jeito ou de outro.</li>
+					</ul> 	
+				</div>
+
 			</div>
 		</div>
 	</div>
-</header>
 
-<div class="section first-section">
-	<div class="container">
-		<div class="row justify-content-around align-items-center">
-	<p class="text-center">A chave para uma vida feliz?</p>
-	<div class="col-12 col-lg-7	">	
-		<img class="img-fluid" src="img/img_cachorros_golden_retriever.jpg" alt="Cute Dog">
-	</div>
-	<div class="col-12 col-lg-5">
-		<p>A fidelidade em forma de de quatro patas.</p>
-			<h4>Não e muito dificil comvence alguem de que os nossos conpanheiros de quatro patas são os animais mais incriveis do mundo.</h4>
-		<h4>Aqui estão algums motivos:</h4>
-	<ul>
-		<li>Vão estar ao seu lado Sempre que você precisar.</li>
-		<li>Sempre tentam fazer o maximo para agradar seu dono.</li>
-		<li>Ficam incrivelmete felizes e agitados quando você chega em casa.</li>
-		<li>Estão sempre demostrando carinho, de um jeito ou de outro.</li>
-	</ul> 	
-	</div>
-		</div>
-	</div>
-</div>
-
-<div class="section second-section">
-	<div class="container">
-		<div class="row justify-content-around text-center">
-			<h2>Devoram Tudo!</h2>
-			<p>É bem facil Agradar um dog com comida. Aqui estão alguns exemplos de coisas que deixam eles com agua na boca:</p>	
+	<div class="section second-section" id="second-section">
+		<div class="container">
+			<div class="row justify-content-around text-center">
+				<h2>Devoram Tudo!</h2>
+				<p>É bem facil Agradar um dog com comida. Aqui estão alguns exemplos de coisas que deixam eles com agua na boca:</p>	
 			<div class="row text-center">
-	<div class="col-12 col-sm-6 col-lg-3">
-		<img src="img/broccoli_ic.png" alt="brocolis">
-		<h3>Brócolis</h3>
-		<p> Um vegetal cultivado desde a época do Inpério Romano, rico em cálcio, ferro e vitaminas.</p>
-	</div>
-	<div class="col-12 col-sm-6 col-lg-3">
-		<img src="img/popsicles_ic.png" alt="sorvete">
-		<h3>Sorvete</h3>
-		<P>Um pedaço doce e gelado de sabor encaixado num palito.</P>
-	</div>
-	<div class="col-12 col-sm-6 col-lg-3">
-		<img src="img/popcorn_ic.png" alt="pipoca">
-		<h3>Pipoca</h3>
-		<p>Um milho magico, que estoura quando e aquecidoe todo mundo ama.</p>
-	</div>
-	<div class="col-12 col-sm-6 col-lg-3">
-		<img src="img/watermelon_ic.png" alt="melancia">
-		<h3>Melancia</h3>
-		<p>Talvez a fruta mais soculenta que a humanidade ja conheceu. E os dogs tambem.</p>
-	</div>				
-			</div>
-		</div>	
-	</div>
-</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<img src="img/broccoli_ic.png" alt="brocolis">
+					<h3>Brócolis</h3>
+					<p> Um vegetal cultivado desde a época do Inpério Romano, rico em cálcio, ferro e vitaminas.</p>
+				</div>
 
-<div class="section third-section">
-	<div class="container">
-		<div class="row align-items-center justify-content-around">
-			<div class="col-12 col-md-5">
-				<h2>Sempre Divertidos</h2>
-				<p>Joga essa bolinha pra mim? Posso brincar com seu chinelo?</p>
-				<a class="btn btn-lg btn-primary" href="https:/www.procure1amigo.com.br/">Adotar</a>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<img src="img/popsicles_ic.png" alt="sorvete">
+					<h3>Sorvete</h3>
+					<P>Um pedaço doce e gelado de sabor encaixado num palito.</P>
+				</div>
+
+				<div class="col-12 col-sm-6 col-lg-3">
+					<img src="img/popcorn_ic.png" alt="pipoca">
+					<h3>Pipoca</h3>
+					<p>Um milho magico, que estoura quando e aquecidoe todo mundo ama.</p>
+				</div>
+
+				<div class="col-12 col-sm-6 col-lg-3">
+					<img src="img/watermelon_ic.png" alt="melancia">
+					<h3>Melancia</h3>
+					<p>Talvez a fruta mais soculenta que a humanidade ja conheceu. E os dogs tambem.</p>
+				</div>	
 			</div>
-			<div class="col-12 col-md-5">
-				<img class="rounder img-fluid" src="img/dog-third-section.png" alt="third dog">
+
+			</div>	
+		</div>
+	</div>
+
+	<div class="section third-section" id="third-section">
+		<div class="container">
+			<div class="row align-items-center justify-content-around">
+				<div class="col-12 col-md-5">
+					<h2>Sempre Divertidos</h2>
+					<p>Joga essa bolinha pra mim? Posso brincar com seu chinelo?</p>
+					<a class="btn btn-lg btn-primary" href="https:/www.procure1amigo.com.br/">Adotar</a>
+				</div>
+				<div class="col-12 col-md-5">
+					<img class="rounder img-fluid" src="img/dog-third-section.png" alt="third dog">
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="section fourth-section">
-	<div class="container">
-		<div class="row text-center">
-			<div class="col-12">
-				<h2>Adote um cãozinho e ame-o para sempre.</h2>
-				<p>Ache um amigo.</p>
-				<a class="btn btn-lg btn-primary" href="https:/www.procure1amigo.com.br/">Adotar</a>
+
+	<div class="section fourth-section" id="fourth-section">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12">
+					<h2>Adote um cãozinho e ame-o para sempre.</h2>
+					<p>Ache um amigo.</p>
+					<a class="btn btn-lg btn-primary" href="https:/www.procure1amigo.com.br/">Adotar</a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<footer class="text-center">
-	<small>Feito com amor<span><img class="footer-logo" src="img/hike-logo-small.png" alt="hike logo"></span>por um Hiker.</small>
-</footer>
+	<footer class="text-center">
+		<small>Feito com amor<span><img class="footer-logo" src="img/hike-logo-small.png" alt="hike logo"></span>por um Hiker.</small>
+	</footer>
 
- 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+ 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+ 	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+
+</body>
+
 </html>
